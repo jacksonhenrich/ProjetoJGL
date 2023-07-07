@@ -19,7 +19,7 @@
 
 ![Login](public/img/Login.png)
 
-![Cadastro](public/img/SingUp.png)
+![Cadastro](public/img/SignUp.png)
 
 ![Home](public/img/JGL_WIFI_Analyzer.png)
 
