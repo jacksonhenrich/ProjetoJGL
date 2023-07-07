@@ -1,0 +1,58 @@
+
+container {
+
+    padding: 20;
+
+    margin: 20;
+
+    background-color: #310872;
+
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: #2d3656  !important;
+    color: aliceblue;
+}
+
+body {
+    background-color: #2d3656 !important;
+    color: aliceblue;
+}
+
+tr {
+    color: aliceblue;
+}
+
+a {
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    -webkit-text-stroke: 2px #2d3656;
+    text-shadow: 2px #FFF;
+}
+
+.brand-black-2 {
+    height: 40px;
+    display: block;
+}
+
+#offcanvasBottom24 {
+    height: min(55vh, 600px) !important;
+}
+#offcanvasBottom50 {
+    height: min(55vh, 600px) !important;
+}
+.Entrar {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

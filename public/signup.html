@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sing Up</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <h1 class="text-center my-3">JGL WI-FI Analyzer</h1>
+      </div>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <h1 class="text-center my-3">Cadastre-se Já</h1>
+        </div>
+        <div class="container justify-content-start">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="email" class="form-label">Endereço de Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="tiopatinhas@gmail.com">
+            </div>
+            <div class="col-md-6">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha" name="senha" placeholder="ch3ioD4graNa">
+            </div>
+            <div class="col-12">
+              <label for="enderecoFisico" class="form-label">Endereço Físico</label>
+              <input type="text" class="form-control" id="enderecoFisico" name="enderecoFisico" placeholder="Bairro: Jaguaribe, 307">
+            </div>
+            <div class="col-12">
+              <label for="tipoResidencia" class="form-label">Tipo de Residência</label>
+              <input type="text" class="form-control" id="tipoResidencia" name="tipoResidencia" placeholder="Apartamento, Bloco, Andar ou Casa">
+            </div>
+            <div class="col-md-6">
+              <label for="cidade" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="cidade" name="cidade" placeholder="JampaCity">
+            </div>
+            <div class="col-md-4">
+              <label for="estado" class="form-label">Estado</label>
+              <select id="estado" class="form-select">
+                <option selected>Escolha...</option>
+                <option value="PB">Paraíba</option>
+                <option value="PE">Pernambuco</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="cep" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="cep" name="cep" placeholder="99000-000">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Receber Notificações
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+    </nav>
+    <script src="./js/signup.js" type="module"></script>
+</body>
+</html>

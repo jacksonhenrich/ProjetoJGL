@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <h1 class="text-center my-3">JGL WI-FI Analyzer</h1>
+    </div>
+  </nav>
+    <div class="container justify-content-start">
+      <div class="row row-cols-2">
+        <div class="col-6">
+          <img src="img/logo2.png" class="img" width="360" height="360" alt="Exemplo"/>
+        </div>
+        <div class="col-4">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><h1>Login</h1></label>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Endereço de Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Lembrar de mim</label>
+            </div>
+            <button id="btnCadastrese">
+              <a href="signup.html">Cadastre-se</a>
+            </button>
+            <div class="mb-3">
+              <button id="btnEntrar">Entrar</button>
+            </div>
+            <!--button type="button" class="btn btn-light">
+              <a class="nav-link active" aria-current="page" href="index.html">Confirmar</a>
+            </button-->
+          </form>
+        </div>
+      </div>
+    </div>
+  <div class="container footer">
+    <div class="footer-content w-row">
+      <div class="company w-col-6 w-col-stack">
+        <div class="brand-footer">
+          <div id="copyright" class="copyright">© 2022 - 2023</div>
+        </div>
+        <div class="biz-info">
+          <p class="paragraph">JGL Analyzer LTDA. – CNPJ 99.999.999/0001-99
+            <br>Rua Lugar Nenhum, n° 616, Sala 42 - Lote 31 - Jaguaribe - JampaCity - PB - 99000-990<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/signin.js" type="module"></script>
+</body>
+</html>
